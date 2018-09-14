@@ -13,6 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+        let repository = ReadableRepository(data: ImplicitInput.Data(value: 5))
+
+        let implicitInput = ImplicitInput(readVia: repository)
+
+        // ReadableRepositoryContract を経由して、 Dataクラス から値を取得する
+        let result = implicitInput.reduce()
     }
 
     override func didReceiveMemoryWarning() {

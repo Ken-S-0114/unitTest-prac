@@ -16,6 +16,7 @@
 		B279ECA7214B824300E8E5FE /* test_pracUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B279ECA6214B824300E8E5FE /* test_pracUITests.swift */; };
 		B279ECB5214B826F00E8E5FE /* ImplicitInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B279ECB4214B826F00E8E5FE /* ImplicitInput.swift */; };
 		B279ECB7214B834900E8E5FE /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B279ECB6214B834900E8E5FE /* Protocol.swift */; };
+		B279ECB9214B862600E8E5FE /* ReadableRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B279ECB8214B862500E8E5FE /* ReadableRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B279ECA8214B824300E8E5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B279ECB4214B826F00E8E5FE /* ImplicitInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitInput.swift; sourceTree = "<group>"; };
 		B279ECB6214B834900E8E5FE /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		B279ECB8214B862500E8E5FE /* ReadableRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadableRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				B279EC92214B824300E8E5FE /* Info.plist */,
 				B279ECB4214B826F00E8E5FE /* ImplicitInput.swift */,
 				B279ECB6214B834900E8E5FE /* Protocol.swift */,
+				B279ECB8214B862500E8E5FE /* ReadableRepository.swift */,
 			);
 			path = "test-prac";
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B279ECB9214B862600E8E5FE /* ReadableRepository.swift in Sources */,
 				B279ECB5214B826F00E8E5FE /* ImplicitInput.swift in Sources */,
 				B279EC89214B823E00E8E5FE /* ViewController.swift in Sources */,
 				B279EC87214B823E00E8E5FE /* AppDelegate.swift in Sources */,

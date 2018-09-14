@@ -28,15 +28,15 @@ class ImplicitInput {
         return self.repository.read() - 1
     }
 
-//    class Data {
-//        let value: Int
-//
-//        init(value: Int) {
-//            self.value = value
-//        }
-//
-//        func double() -> Int {
-//            return value * 2
-//        }
-//    }
+    class Data {
+        let value: Int
+
+        init(value: Int) {
+            self.value = value
+        }
+
+        func double() -> Int {
+            return value * 2
+        }
+    }
 }
