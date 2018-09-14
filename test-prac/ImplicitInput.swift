@@ -25,7 +25,7 @@ class ImplicitInput {
     func reduce() -> Int {
         // クラス外から値を取得している
 //        return self.data.double() - 1
-        return self.repository.read
+        return self.repository.read() - 1
     }
 
 //    class Data {
