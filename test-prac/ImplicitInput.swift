@@ -10,28 +10,33 @@ import Foundation
 
 class ImplicitInput {
 
-    private let data: Data
+//    private let data: Data
+    private let repository: ReadableRepositoryContract
 
-    init() {
-        // 1 ~ 10 までのランダムな数字を使って Data クラスを生成する
-        let random = Int(arc4random_uniform(10) + 1)
-        self.data = Data(value: random)
+//    init() {
+//        // 1 ~ 10 までのランダムな数字を使って Data クラスを生成する
+//        let random = Int(arc4random_uniform(10) + 1)
+//        self.data = Data(value: random)
+//    }
+    init(readVia repository: ReadableRepositoryContract) {
+        self.repository = repository
     }
 
     func reduce() -> Int {
         // クラス外から値を取得している
-        return self.data.double() - 1
+//        return self.data.double() - 1
+        return self.repository.read
     }
 
-    class Data {
-        let value: Int
-
-        init(value: Int) {
-            self.value = value
-        }
-
-        func double() -> Int {
-            return value * 2
-        }
-    }
+//    class Data {
+//        let value: Int
+//
+//        init(value: Int) {
+//            self.value = value
+//        }
+//
+//        func double() -> Int {
+//            return value * 2
+//        }
+//    }
 }
