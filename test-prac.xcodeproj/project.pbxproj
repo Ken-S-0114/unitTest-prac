@@ -17,6 +17,7 @@
 		B279ECB5214B826F00E8E5FE /* ImplicitInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B279ECB4214B826F00E8E5FE /* ImplicitInput.swift */; };
 		B279ECB7214B834900E8E5FE /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B279ECB6214B834900E8E5FE /* Protocol.swift */; };
 		B279ECB9214B862600E8E5FE /* ReadableRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B279ECB8214B862500E8E5FE /* ReadableRepository.swift */; };
+		B279ECBB214B8B2100E8E5FE /* ReadableRepositoryStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = B279ECBA214B8B2100E8E5FE /* ReadableRepositoryStub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B279ECB4214B826F00E8E5FE /* ImplicitInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitInput.swift; sourceTree = "<group>"; };
 		B279ECB6214B834900E8E5FE /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 		B279ECB8214B862500E8E5FE /* ReadableRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadableRepository.swift; sourceTree = "<group>"; };
+		B279ECBA214B8B2100E8E5FE /* ReadableRepositoryStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadableRepositoryStub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				B279EC88214B823E00E8E5FE /* ViewController.swift */,
 				B279ECB4214B826F00E8E5FE /* ImplicitInput.swift */,
 				B279ECB8214B862500E8E5FE /* ReadableRepository.swift */,
+				B279ECBA214B8B2100E8E5FE /* ReadableRepositoryStub.swift */,
 				B279ECB6214B834900E8E5FE /* Protocol.swift */,
 				B279EC8A214B823E00E8E5FE /* Main.storyboard */,
 				B279EC8D214B824300E8E5FE /* Assets.xcassets */,
@@ -270,6 +273,7 @@
 				B279EC89214B823E00E8E5FE /* ViewController.swift in Sources */,
 				B279EC87214B823E00E8E5FE /* AppDelegate.swift in Sources */,
 				B279ECB7214B834900E8E5FE /* Protocol.swift in Sources */,
+				B279ECBB214B8B2100E8E5FE /* ReadableRepositoryStub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

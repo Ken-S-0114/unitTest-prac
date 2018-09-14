@@ -32,5 +32,23 @@ class test_pracTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+
+    func testMultiplication() {
+        // ReadableRepositoryContract#read() = 4 の時、
+        let int = 4
+        // ImplicitInput#reduce() = 3 となる
+        let expected = 3
+
+        // スタブ作成
+        let repositoryStub = ReadableRepositoryStub(base: int)
+        // スタブを差し込む
+        let input = ImplicitInput(readVia: repositoryStub)
+        // 内部でスタブが利用される
+        let actual = input.reduce()
+
+        // 引数のa1とa2が等しい場合成功
+        XCTAssertEqual(actual, expected)
+
+    }
     
 }
