@@ -105,13 +105,13 @@
 			children = (
 				B279EC86214B823E00E8E5FE /* AppDelegate.swift */,
 				B279EC88214B823E00E8E5FE /* ViewController.swift */,
+				B279ECB4214B826F00E8E5FE /* ImplicitInput.swift */,
+				B279ECB8214B862500E8E5FE /* ReadableRepository.swift */,
+				B279ECB6214B834900E8E5FE /* Protocol.swift */,
 				B279EC8A214B823E00E8E5FE /* Main.storyboard */,
 				B279EC8D214B824300E8E5FE /* Assets.xcassets */,
 				B279EC8F214B824300E8E5FE /* LaunchScreen.storyboard */,
 				B279EC92214B824300E8E5FE /* Info.plist */,
-				B279ECB4214B826F00E8E5FE /* ImplicitInput.swift */,
-				B279ECB6214B834900E8E5FE /* Protocol.swift */,
-				B279ECB8214B862500E8E5FE /* ReadableRepository.swift */,
 			);
 			path = "test-prac";
 			sourceTree = "<group>";

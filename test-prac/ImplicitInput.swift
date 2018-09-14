@@ -25,6 +25,7 @@ class ImplicitInput {
     func reduce() -> Int {
         // クラス外から値を取得している
 //        return self.data.double() - 1
+        // Point: 暗黙的入力を行なっている箇所でProtocolを利用する
         return self.repository.read() - 1
     }
 

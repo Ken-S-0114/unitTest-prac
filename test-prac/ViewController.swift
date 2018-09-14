@@ -20,13 +20,9 @@ class ViewController: UIViewController {
 
         // ReadableRepositoryContract を経由して、 Dataクラス から値を取得する
         let result = implicitInput.reduce()
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        print("result: \(result)")
     }
-
 
 }
 
